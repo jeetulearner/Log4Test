@@ -23,6 +23,7 @@ public class TT {
     }
     @Test
     public void LaunchBrowser(){
+        System.out.println("changes");
         logger.info("Launching browser");
         d = new ChromeDriver();
         d.get("http://www.saucedemo.com/");
